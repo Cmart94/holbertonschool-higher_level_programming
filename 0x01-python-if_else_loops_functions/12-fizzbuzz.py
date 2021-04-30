@@ -9,7 +9,7 @@ def fizzbuzz():
             continue
         elif i % 5 == 0:
             print("Buzz ", end="")
-            continue        
+            continue
         print("{}".format(i), end="")
         if i != 100:
             print(" ", end="")
