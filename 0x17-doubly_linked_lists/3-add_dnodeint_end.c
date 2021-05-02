@@ -11,10 +11,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	dlistint_t *new_node = malloc(sizeof(dlistint_t)),
 		*last_node = *head;
 
-	if ((new_node == NULL) | (last_node == NULL))
+	if (new_node == NULL)
 		return (NULL);
 	/* put data in new node */
-	new_node->n = n  
+	new_node->n = n;
 	/* if the list is empty, the head is this node */
 	if (*head == NULL)
 	{
