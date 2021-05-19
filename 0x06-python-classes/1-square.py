@@ -6,5 +6,5 @@ define the size of a square
 
 class Square:
     """Private square size atribute"""
-    def __init__(self, __size=None):
-        self.__size = __size
+    def __init__(self, size=None):
+        self.__size = size
