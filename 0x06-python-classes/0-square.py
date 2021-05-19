@@ -2,6 +2,10 @@
 """
 class Square defined
 """
+
+
 class Square:
-    """Do nothing"""
+    """
+    Do nothing
+    """
     pass
