@@ -5,11 +5,11 @@ define the size of a square
 
 
 class Square:
-    def __init__(self, __size=0):
+    def __init__(self, size=0):
         """
         Initialize size variable
         """
-        self.__size = __size
+        self.__size = size
 
     @property
     def size(self):
@@ -21,8 +21,8 @@ class Square:
     @size.setter
     def size(self, value):
         """
-        Set the square size with some condition
-        s"""
+        Set the square size with some conditions
+        """
         if type(value) is int:
             pass
         else:
