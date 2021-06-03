@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+this module define a lookup for a object
+"""
+
 
 def lookup(obj):
     """
