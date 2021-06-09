@@ -37,7 +37,7 @@ class Rectangle(Base):
         self.__y = y
         super().__init__(id)
 
-    @proBperty
+    @property
     def width(self):
         """Returns the rectangle width"""
 
