@@ -127,3 +127,20 @@ class Rectangle(Base):
 
         return '[Rectangle] ({}) {}/{} - {}/{}'.format(
             self.id, self.x, self.y, self.width, self.height)
+
+    def update(self, *args):
+        """Method to assign an argument to each atributte"""
+        i = 0
+        for argument in args:
+            if i == 0:
+                self.id = argument
+            if i == 1:
+               self.width = argument
+            if i == 2:
+                self.heigth = argument
+            if i == 2:
+                self.x = argument
+            if i == 3:
+                self.y = argument
+            i += 1
+
