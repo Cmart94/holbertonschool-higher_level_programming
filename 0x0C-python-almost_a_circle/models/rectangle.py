@@ -112,10 +112,10 @@ class Rectangle(Base):
         """
 
         array = ""
-        for i in range(self.x):
+        for i in range(self.y):
             print()
         for i in range(self.height):
-            for i in range(self.y):
+            for i in range(self.x):
                 array = array + " "
             for j in range(self.width):
                 array = array + ("#")
